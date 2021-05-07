@@ -1,9 +1,13 @@
+import Navigation from '../../Components/Navigation/Navigation';
 import './App.css';
-import Void from '../Void/Void';
+
 
 function App() {
   return (
-    <Void />
+    <>
+      <div id="bg-1"></div>
+      <Navigation />
+    </>
   );
 }
 
