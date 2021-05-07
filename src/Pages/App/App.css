@@ -12,3 +12,10 @@
   background-image: url('../../public/images/logs.jpeg');
   background-size: cover;
 }
+
+#main-container {
+  margin: 15px auto;
+  width: 100%;
+  height: 100%;
+}
+

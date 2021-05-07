@@ -1,21 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Icon, Popup } from 'semantic-ui-react';
 import './Project.css';
 
-export default function Project({ images }) {
-
-    const [imageIndex, setImageIndex] = useState(0);
-    const bgImage = 'guitar.jpeg';
+export default function Project ({ title, description, link, image }) {
 
     return (
-        <>
-            <div className="image-container">
-                <div className="project-img" style={{ backgroundImage: `url(${images[imageIndex]})`}}></div>
+        <div id="grid-container">
+            <div id="image-container">
+                <img src={image} alt="Screenshot of project" />
             </div>
-            <div className="reflection-container">
-                <div className="reflection-img" style={{ backgroundImage: `url(${images[imageIndex]})`}}>
-                    <div className="reflection-effects"></div>
-                </div>
+            <div id="description-container">
+                <h2>{title}</h2>
+                <p>{description}</p>
+                <Popup
+                    trigger={<a href={link}><Icon name="github" color="violet" size="big"></Icon></a>}
+                    content="Github Repository"
+                    position="bottom center"
+                />
             </div>
-        </>
+        </div>
     )
 }
