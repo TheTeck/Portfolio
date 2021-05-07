@@ -1,12 +1,18 @@
 #nav-container {
-    background-color: rgba(248, 188, 110, 0.834);
+    background-color: rgba(248, 188, 110, 0.902);
     padding: 20px;
+    text-align: center;
 }
 
 #nav-container > * {
     padding: 20px;
     font-size: 20px;
     display: inline;
+}
+
+#nav-container > *:hover {
+    color: white;
+    text-shadow: 0 0 4px black;
 }
 
 @media screen and (max-width: 650px) {
