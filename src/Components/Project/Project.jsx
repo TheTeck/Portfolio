@@ -14,12 +14,12 @@ export default function Project ({ title, description, link, link2, image }) {
                 <p>{description}</p>
                 <div id="project-links">
                     <Popup
-                        trigger={<a href={link} target="_blank"><Icon name="github" color="violet" size="huge"></Icon></a>}
+                        trigger={<a href={link} rel="noreferrer" target="_blank"><Icon name="github" color="violet" size="huge"></Icon></a>}
                         content="Github Repository"
                         position="bottom center"
                     />
                     <Popup
-                        trigger={<a href={link2} target="_blank"><img src="images/heroku.png" /></a>}
+                        trigger={<a href={link2} rel="noreferrer" target="_blank"><img src="images/heroku.png" alt="Heroku Icon" /></a>}
                         content="Deployed App"
                         position="bottom center"
                     />

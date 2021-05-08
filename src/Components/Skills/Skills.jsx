@@ -36,7 +36,7 @@ export default function Skills () {
                     theSkills.map(skill => {
                         return (
                             <div className="icon-container">
-                                <img className="icon-img" src={skill[0]} />
+                                <img className="icon-img" src={skill[0]} alt="Icon for this skill" />
                                 <h4 className="icon-title">{skill[1]}</h4>
                             </div>
                         )
