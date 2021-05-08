@@ -22,7 +22,7 @@ export default function Skills () {
         ['images/semanticui.png', 'Semantic UI'],
         ['images/materialize.png', 'Materialize'],
         ['images/ejs.png', 'EJS'],
-        ['images/JSX.png', 'JSX'],
+        ['images/jsx.png', 'JSX'],
         ['images/oauth.png', 'OAuth'],
         ['images/passport.png', 'Passport.js'],
         ['images/jwt.png', 'JWT'],
