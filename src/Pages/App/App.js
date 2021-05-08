@@ -5,6 +5,7 @@ import Skills from '../../Components/Skills/Skills';
 import Heading from '../../Components/Heading/Heading';
 import Contact from '../../Components/Contact/Contact';
 import Resume from '../../Components/Resume/Resume';
+import About from '../../Components/About/About';
 import './App.css';
 
 
@@ -24,6 +25,10 @@ function App() {
         <Title />
         <Navigation />
         <div id="main-container">
+          <div id="about-me">
+            <Heading title={'About Me'} />
+            <About />
+          </div>
           <div id="technical-skills">
             <Heading title={'Technical Skills'} />
             <Skills />

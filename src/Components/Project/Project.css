@@ -40,7 +40,7 @@
 #image-container img {
     width: 600px;
     height: 400px;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 @media screen and (max-width: 650px) {
