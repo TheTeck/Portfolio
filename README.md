@@ -6,7 +6,7 @@ This portfolio represents the work that I hvae done and the skills that I have l
 ---
  
 Here is the link for my
-[portfolio](https://sheetmusicmaker.herokuapp.com/)  
+[portfolio](http://TheTeck.github.io/Portfolio/)  
 
 
 
