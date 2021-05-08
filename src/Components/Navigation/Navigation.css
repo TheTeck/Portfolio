@@ -1,13 +1,13 @@
 #nav-container {
     background-color: rgba(248, 188, 110, 0.957);
-    padding: 20px;
     text-align: center;
 }
 
 #nav-container > * {
     padding: 20px;
     font-size: 20px;
-    display: inline;
+    color:black;
+    display:inline-flex;
 }
 
 #nav-container > *:hover {
@@ -20,6 +20,6 @@
         display: block;
         font-size: 25px;
         align-content: center;
-        box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.724);
+        border: 2px solid rgba(0, 0, 0, 0.299);
     }
 }

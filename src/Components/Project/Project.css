@@ -25,6 +25,18 @@
     font-size: 20px;
 }
 
+#project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project-links img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
 #image-container img {
     width: 600px;
     height: 400px;
@@ -34,7 +46,7 @@
 @media screen and (max-width: 650px) {
     #image-container img {
         width: 100%;
-        object-fit:scale-down;
+        object-fit: scale-down;
     }
     #image-container {
         height:min-content;
