@@ -4,6 +4,7 @@ import Project from '../../Components/Project/Project';
 import Skills from '../../Components/Skills/Skills';
 import Heading from '../../Components/Heading/Heading';
 import Contact from '../../Components/Contact/Contact';
+import Resume from '../../Components/Resume/Resume';
 import './App.css';
 
 
@@ -18,24 +19,30 @@ function App() {
 
   return (
     <>
-      <div id="bg-1"></div>
-      <Title />
-      <Navigation />
-      <div id="main-container">
-        <div id="technical-skills">
-          <Heading title={'Technical Skills'} />
-          <Skills />
-        </div>
-        <div id="my-projects">
-          <Heading title={'Projects'} />
-          <Project image={projects[0][0]} link={projects[0][1]} link2={projects[0][2]} title={projects[0][3]} description={projects[0][4]} onHeroku={true} />
-          <Project image={projects[1][0]} link={projects[1][1]} link2={projects[1][2]} title={projects[1][3]} description={projects[1][4]} onHeroku={true} />
-          <Project image={projects[2][0]} link={projects[2][1]} link2={projects[2][2]} title={projects[2][3]} description={projects[2][4]} onHeroku={false} />
-          <Project image={projects[3][0]} link={projects[3][1]} link2={projects[3][2]} title={projects[3][3]} description={projects[3][4]} onHeroku={true} />
-        </div>
-        <div id="contact">
-          <Heading title={'Contact'} />
-          <Contact />
+      <div id="bg-container">
+        <div id="bg-1"></div>
+        <Title />
+        <Navigation />
+        <div id="main-container">
+          <div id="technical-skills">
+            <Heading title={'Technical Skills'} />
+            <Skills />
+          </div>
+          <div id="my-projects">
+            <Heading title={'Projects'} />
+            <Project image={projects[0][0]} link={projects[0][1]} link2={projects[0][2]} title={projects[0][3]} description={projects[0][4]} onHeroku={true} />
+            <Project image={projects[1][0]} link={projects[1][1]} link2={projects[1][2]} title={projects[1][3]} description={projects[1][4]} onHeroku={true} />
+            <Project image={projects[2][0]} link={projects[2][1]} link2={projects[2][2]} title={projects[2][3]} description={projects[2][4]} onHeroku={false} />
+            <Project image={projects[3][0]} link={projects[3][1]} link2={projects[3][2]} title={projects[3][3]} description={projects[3][4]} onHeroku={true} />
+          </div>
+          <div id="resume">
+            <Heading title={'Resume'} />
+            <Resume />
+          </div>
+          <div id="contact">
+            <Heading title={'Contact'} />
+            <Contact />
+          </div>
         </div>
       </div>
     </>

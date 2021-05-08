@@ -7,7 +7,7 @@ export default function Navigation() {
             <a href="#"><h3>About Me</h3></a>
             <a href="#technical-skills"><h3>Technical Skills</h3></a>
             <a href="#my-projects"><h3>Projects</h3></a>
-            <a href="#"><h3>Resume</h3></a>
+            <a href="#resume"><h3>Resume</h3></a>
             <a href="#contact"><h3>Contact</h3></a>
         </div>
     )

@@ -1,6 +1,7 @@
 #nav-container {
     background-color: rgba(248, 188, 110, 0.957);
     text-align: center;
+    z-index: 1;
 }
 
 #nav-container > * {
