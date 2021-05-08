@@ -11,7 +11,7 @@
 }
 
 #description-container {
-    background-color: rgba(248, 188, 110, 0.957);
+    background-color: rgba(0, 0, 0, 0.895);
     border-radius: 15px;
     padding: 20px;
     text-align: center;
@@ -21,8 +21,13 @@
     box-shadow: inset 0 0 20px black;
 }
 
+#description-container h2 {
+    color: white;
+}
+
 #description-container p {
     font-size: 20px;
+    color: rgb(193, 193, 193);
 }
 
 #project-links {

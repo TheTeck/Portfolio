@@ -5,8 +5,8 @@ import './Resume.css';
 export default function Resume () {
     return (
         <div id="resume-container">
-            <a href="intro-to-ui.pdf" target="_blank"><Icon name="file pdf"></Icon>View Resume Online</a>
-            <a href="intro-to-ui.pdf" download><Icon name="download"></Icon>Download Resume</a>
+            <a href="resume.pdf" target="_blank"><Icon name="file pdf"></Icon>View Resume Online</a>
+            <a href="resume.pdf" download><Icon name="download"></Icon>Download Resume</a>
         </div>
     )
 }
